@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LiquidButtonArray_Tests' do
+  pod 'LiquidButtonArray', :path => '../'
+  
+  
+end
