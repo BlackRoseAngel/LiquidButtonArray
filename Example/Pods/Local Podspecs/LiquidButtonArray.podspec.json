@@ -1,0 +1,22 @@
+{
+  "name": "LiquidButtonArray",
+  "version": "0.1.0",
+  "summary": "A short description of LiquidButtonArray.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BlackRoseAngel@gmail.com/LiquidButtonArray",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BlackRoseAngel@gmail.com": "blackroseangel@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/BlackRoseAngel@gmail.com/LiquidButtonArray.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LiquidButtonArray/Classes/**/*"
+}

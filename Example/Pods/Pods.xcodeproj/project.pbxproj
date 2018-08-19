@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C44F0B0EA697BEC75444377761223F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D4DC7725C01A2FF81078BFE3FB8CD2 /* ReplaceMe.swift */; };
+		1F6C5549D3BCC72B241474FA00DD0A5D /* Pods-LiquidButtonArray_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E49C29251A1BA9DCDA61C47C53039 /* Pods-LiquidButtonArray_Tests-dummy.m */; };
+		23A0538012F29FF68E7040290F8AE296 /* LiquidButtonArray-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 092DE09A872C5E6E2FA5A1C4F4AAC854 /* LiquidButtonArray-dummy.m */; };
+		87E936D3BF761D16984771FF6C4D4C91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		915574F7E51B775DB65B5F7230F034CA /* Pods-LiquidButtonArray_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA149A47BA48B0E059821C118B52B14 /* Pods-LiquidButtonArray_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC27C4FFF8111E694D756A89A9847865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F79B57D3EEDF3E7756D6C5E9DEEF497B /* LiquidButtonArray-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B36F548334558B67CFE018430DCB57 /* LiquidButtonArray-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CD550B4E032A9DEE2CB1473030C8075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95FF72AE3B646D005DA202C6843948FC;
+			remoteInfo = LiquidButtonArray;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092DE09A872C5E6E2FA5A1C4F4AAC854 /* LiquidButtonArray-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiquidButtonArray-dummy.m"; sourceTree = "<group>"; };
+		0AAF5D9C2B30BCF799B7C247E934B6F8 /* LiquidButtonArray.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiquidButtonArray.xcconfig; sourceTree = "<group>"; };
+		192ED2802E3FC66D9F5F5BAB69DE5B51 /* Pods-LiquidButtonArray_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiquidButtonArray_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		489D83B67B4E1EDAAF73E7D078ED1CAD /* Pods-LiquidButtonArray_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiquidButtonArray_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5753AE036BF8CEBC8424F70BB9A16701 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59925542F14015C83F9629FE2752B9AE /* Pods-LiquidButtonArray_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LiquidButtonArray_Tests.modulemap"; sourceTree = "<group>"; };
+		5F3961BBAFBBF5ADC943F548F2AF92CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B2D48D582AB0E7A4DC65D0B9E51E45 /* Pods-LiquidButtonArray_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiquidButtonArray_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		717988941271D41DDE323846BFA50EB2 /* Pods-LiquidButtonArray_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiquidButtonArray_Tests-resources.sh"; sourceTree = "<group>"; };
+		743AE378CED52D52CCC4B85A6D458758 /* Pods_LiquidButtonArray_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiquidButtonArray_Tests.framework; path = "Pods-LiquidButtonArray_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADB91CFC0ECF754679608EA1CF410C0 /* LiquidButtonArray-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidButtonArray-prefix.pch"; sourceTree = "<group>"; };
+		8076E5B932D052FB633A0164DF7943AF /* Pods-LiquidButtonArray_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiquidButtonArray_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8AAFC0F572DDF9FC9EE3D8187CB717C5 /* LiquidButtonArray.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LiquidButtonArray.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		970E49C29251A1BA9DCDA61C47C53039 /* Pods-LiquidButtonArray_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiquidButtonArray_Tests-dummy.m"; sourceTree = "<group>"; };
+		A0B36F548334558B67CFE018430DCB57 /* LiquidButtonArray-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidButtonArray-umbrella.h"; sourceTree = "<group>"; };
+		C4D4DC7725C01A2FF81078BFE3FB8CD2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LiquidButtonArray/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C7743E265CB431AA1CD859EA0605A99B /* LiquidButtonArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LiquidButtonArray.framework; path = LiquidButtonArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA149A47BA48B0E059821C118B52B14 /* Pods-LiquidButtonArray_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiquidButtonArray_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D3113A7ECAA3194CF3FB1E58E89CD7E9 /* Pods-LiquidButtonArray_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiquidButtonArray_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381A1E01B2512CB67219997299CBDCC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E936D3BF761D16984771FF6C4D4C91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8572C5410DA61FD14DB8B107A86081E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC27C4FFF8111E694D756A89A9847865 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F62B6A147B444E6D009A8081F734CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7743E265CB431AA1CD859EA0605A99B /* LiquidButtonArray.framework */,
+				743AE378CED52D52CCC4B85A6D458758 /* Pods_LiquidButtonArray_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EDB8A0B46ED5DDC85E01AC693D496481 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2F62B6A147B444E6D009A8081F734CE3 /* Products */,
+				C0FDF345E709DF57BF30AD8BB9AF952E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86771989A3F68E3B7EFC3AEF7342B694 /* LiquidButtonArray */ = {
+			isa = PBXGroup;
+			children = (
+				C4D4DC7725C01A2FF81078BFE3FB8CD2 /* ReplaceMe.swift */,
+				EC9BFBB51F106E2F4A4633398C90D49F /* Support Files */,
+			);
+			name = LiquidButtonArray;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BB0C3DA726029C49FF105A7C95BBAD58 /* Pods-LiquidButtonArray_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3961BBAFBBF5ADC943F548F2AF92CB /* Info.plist */,
+				59925542F14015C83F9629FE2752B9AE /* Pods-LiquidButtonArray_Tests.modulemap */,
+				D3113A7ECAA3194CF3FB1E58E89CD7E9 /* Pods-LiquidButtonArray_Tests-acknowledgements.markdown */,
+				65B2D48D582AB0E7A4DC65D0B9E51E45 /* Pods-LiquidButtonArray_Tests-acknowledgements.plist */,
+				970E49C29251A1BA9DCDA61C47C53039 /* Pods-LiquidButtonArray_Tests-dummy.m */,
+				489D83B67B4E1EDAAF73E7D078ED1CAD /* Pods-LiquidButtonArray_Tests-frameworks.sh */,
+				717988941271D41DDE323846BFA50EB2 /* Pods-LiquidButtonArray_Tests-resources.sh */,
+				CEA149A47BA48B0E059821C118B52B14 /* Pods-LiquidButtonArray_Tests-umbrella.h */,
+				192ED2802E3FC66D9F5F5BAB69DE5B51 /* Pods-LiquidButtonArray_Tests.debug.xcconfig */,
+				8076E5B932D052FB633A0164DF7943AF /* Pods-LiquidButtonArray_Tests.release.xcconfig */,
+			);
+			name = "Pods-LiquidButtonArray_Tests";
+			path = "Target Support Files/Pods-LiquidButtonArray_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0FDF345E709DF57BF30AD8BB9AF952E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB0C3DA726029C49FF105A7C95BBAD58 /* Pods-LiquidButtonArray_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC9BFBB51F106E2F4A4633398C90D49F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5753AE036BF8CEBC8424F70BB9A16701 /* Info.plist */,
+				8AAFC0F572DDF9FC9EE3D8187CB717C5 /* LiquidButtonArray.modulemap */,
+				0AAF5D9C2B30BCF799B7C247E934B6F8 /* LiquidButtonArray.xcconfig */,
+				092DE09A872C5E6E2FA5A1C4F4AAC854 /* LiquidButtonArray-dummy.m */,
+				7ADB91CFC0ECF754679608EA1CF410C0 /* LiquidButtonArray-prefix.pch */,
+				A0B36F548334558B67CFE018430DCB57 /* LiquidButtonArray-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LiquidButtonArray";
+			sourceTree = "<group>";
+		};
+		EDB8A0B46ED5DDC85E01AC693D496481 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86771989A3F68E3B7EFC3AEF7342B694 /* LiquidButtonArray */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BCD9E663FB1AE75520B873D4C38710B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915574F7E51B775DB65B5F7230F034CA /* Pods-LiquidButtonArray_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92535B445D3014FC263F4499E1873B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79B57D3EEDF3E7756D6C5E9DEEF497B /* LiquidButtonArray-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		95FF72AE3B646D005DA202C6843948FC /* LiquidButtonArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B3319E7ACB4E89597E5224F1D223799 /* Build configuration list for PBXNativeTarget "LiquidButtonArray" */;
+			buildPhases = (
+				1B0E95F4169C40DCE034208A3BED890F /* Sources */,
+				381A1E01B2512CB67219997299CBDCC4 /* Frameworks */,
+				F92535B445D3014FC263F4499E1873B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiquidButtonArray;
+			productName = LiquidButtonArray;
+			productReference = C7743E265CB431AA1CD859EA0605A99B /* LiquidButtonArray.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B07835B69828C5B6E46FF1190554A865 /* Pods-LiquidButtonArray_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48709264BBC232DAF9FB51DCCD6A503A /* Build configuration list for PBXNativeTarget "Pods-LiquidButtonArray_Tests" */;
+			buildPhases = (
+				261E5A8671A1419F434A408ED18CC837 /* Sources */,
+				8572C5410DA61FD14DB8B107A86081E5 /* Frameworks */,
+				3BCD9E663FB1AE75520B873D4C38710B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E57A120639AA2363D334F0857C59CE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-LiquidButtonArray_Tests";
+			productName = "Pods-LiquidButtonArray_Tests";
+			productReference = 743AE378CED52D52CCC4B85A6D458758 /* Pods_LiquidButtonArray_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2F62B6A147B444E6D009A8081F734CE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95FF72AE3B646D005DA202C6843948FC /* LiquidButtonArray */,
+				B07835B69828C5B6E46FF1190554A865 /* Pods-LiquidButtonArray_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B0E95F4169C40DCE034208A3BED890F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A0538012F29FF68E7040290F8AE296 /* LiquidButtonArray-dummy.m in Sources */,
+				02C44F0B0EA697BEC75444377761223F /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261E5A8671A1419F434A408ED18CC837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6C5549D3BCC72B241474FA00DD0A5D /* Pods-LiquidButtonArray_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E57A120639AA2363D334F0857C59CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LiquidButtonArray;
+			target = 95FF72AE3B646D005DA202C6843948FC /* LiquidButtonArray */;
+			targetProxy = 1CD550B4E032A9DEE2CB1473030C8075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3AA7C02AC2571A5040D2D29FC58C3928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192ED2802E3FC66D9F5F5BAB69DE5B51 /* Pods-LiquidButtonArray_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiquidButtonArray_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiquidButtonArray_Tests/Pods-LiquidButtonArray_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LiquidButtonArray_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70E35C574FCFA014B5EEFDE370A188AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8076E5B932D052FB633A0164DF7943AF /* Pods-LiquidButtonArray_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiquidButtonArray_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiquidButtonArray_Tests/Pods-LiquidButtonArray_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LiquidButtonArray_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		74E62D806B93C18ECCF6C4E9B2EF3397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAF5D9C2B30BCF799B7C247E934B6F8 /* LiquidButtonArray.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LiquidButtonArray/LiquidButtonArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LiquidButtonArray/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LiquidButtonArray/LiquidButtonArray.modulemap";
+				PRODUCT_NAME = LiquidButtonArray;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		877FE669E87E4BB441EEC1C66354DB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAF5D9C2B30BCF799B7C247E934B6F8 /* LiquidButtonArray.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LiquidButtonArray/LiquidButtonArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LiquidButtonArray/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LiquidButtonArray/LiquidButtonArray.modulemap";
+				PRODUCT_NAME = LiquidButtonArray;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B3319E7ACB4E89597E5224F1D223799 /* Build configuration list for PBXNativeTarget "LiquidButtonArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877FE669E87E4BB441EEC1C66354DB9E /* Debug */,
+				74E62D806B93C18ECCF6C4E9B2EF3397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48709264BBC232DAF9FB51DCCD6A503A /* Build configuration list for PBXNativeTarget "Pods-LiquidButtonArray_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA7C02AC2571A5040D2D29FC58C3928 /* Debug */,
+				70E35C574FCFA014B5EEFDE370A188AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
