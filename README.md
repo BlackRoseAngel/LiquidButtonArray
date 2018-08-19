@@ -9,8 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 LiquidButtonArray is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,7 +20,7 @@ pod 'LiquidButtonArray'
 
 ## Author
 
-BlackRoseAngel@gmail.com, blackroseangel@gmail.com
+Brett.Chapin89@gmail.com
 
 ## License
 
