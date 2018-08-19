@@ -34,7 +34,7 @@ public class BaseCircleView: UIView {
         return 1 - internalRadiusRatio
     }
     
-    var radius: CGFloat {
+    public var radius: CGFloat {
         didSet {
             setup()
         }
@@ -52,7 +52,7 @@ public class BaseCircleView: UIView {
         }
     }
     
-    var color: UIColor = .blue {
+    public var color: UIColor = .blue {
         didSet {
             setup()
         }

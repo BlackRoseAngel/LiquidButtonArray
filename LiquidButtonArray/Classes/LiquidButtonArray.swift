@@ -10,7 +10,7 @@ import QuartzCore
 import UIKit
 
 // MARK: - LiquidButtonArrayDatasource
-@objc protocol LiquidButtonArrayDatasource {
+@objc public protocol LiquidButtonArrayDatasource {
     /**
      The number of cells for the given LiquidButtonArray.
      
@@ -39,7 +39,7 @@ import UIKit
 }
 
 // MARK: - LiquidButtonArrayDelegate
-@objc protocol LiquidButtonArrayDelegate {
+@objc public protocol LiquidButtonArrayDelegate {
     /**
      The action to be performed by a cell at a given index owned by a given LiquidButtonArray.
      
@@ -120,22 +120,21 @@ public class LiquidButtonArray: BaseCircleView {
         }
     }
     
-    var animationDirection: LiquidButtonArrayAnimateDirection = .up
+    public var animationDirection: LiquidButtonArrayAnimateDirection = .up
     var displayLink: CADisplayLink?
     
     var isOpen: Bool = false
     var isOpening: Bool = false
-    var rotateOnOpen: Bool = true
-    var rotationDegrees: CGFloat = 45.0
-    var cellSizeRatio: CGFloat = 0.8
+    public var rotationDegrees: CGFloat = 45.0
+    public var cellSizeRatio: CGFloat = 0.8
     
     var cellArray: [LiquidCell] = []
     
-    weak var delegate: LiquidButtonArrayDelegate?
-    weak var dataSource: LiquidButtonArrayDatasource?
+    weak public var delegate: LiquidButtonArrayDelegate?
+    weak public var dataSource: LiquidButtonArrayDatasource?
     
     // MARK: Initialization Methods
-    init(center: CGPoint, radius: CGFloat, image: UIImage? = nil) {
+    public init(center: CGPoint, radius: CGFloat, image: UIImage? = nil) {
         super.init(center: center, radius: radius, color: .blue)
         if let img = image {
             setup(img)

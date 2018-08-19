@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02C44F0B0EA697BEC75444377761223F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D4DC7725C01A2FF81078BFE3FB8CD2 /* ReplaceMe.swift */; };
 		1F6C5549D3BCC72B241474FA00DD0A5D /* Pods-LiquidButtonArray_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E49C29251A1BA9DCDA61C47C53039 /* Pods-LiquidButtonArray_Tests-dummy.m */; };
 		23A0538012F29FF68E7040290F8AE296 /* LiquidButtonArray-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 092DE09A872C5E6E2FA5A1C4F4AAC854 /* LiquidButtonArray-dummy.m */; };
 		87E936D3BF761D16984771FF6C4D4C91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		915574F7E51B775DB65B5F7230F034CA /* Pods-LiquidButtonArray_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA149A47BA48B0E059821C118B52B14 /* Pods-LiquidButtonArray_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC27C4FFF8111E694D756A89A9847865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F79B57D3EEDF3E7756D6C5E9DEEF497B /* LiquidButtonArray-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B36F548334558B67CFE018430DCB57 /* LiquidButtonArray-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6EF63B2129DCE500805DF0 /* LiquidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF6312129DCE500805DF0 /* LiquidCell.swift */; };
+		FE6EF63C2129DCE500805DF0 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF6342129DCE500805DF0 /* UIColorEx.swift */; };
+		FE6EF63D2129DCE500805DF0 /* CALayerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF6352129DCE500805DF0 /* CALayerEx.swift */; };
+		FE6EF63E2129DCE500805DF0 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF6362129DCE500805DF0 /* CGRectEx.swift */; };
+		FE6EF63F2129DCE500805DF0 /* CGPointEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF6372129DCE500805DF0 /* CGPointEx.swift */; };
+		FE6EF6402129DCE500805DF0 /* CGMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF6382129DCE500805DF0 /* CGMath.swift */; };
+		FE6EF6412129DCE500805DF0 /* LiquidButtonArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF6392129DCE500805DF0 /* LiquidButtonArray.swift */; };
+		FE6EF6422129DCE500805DF0 /* BaseCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF63A2129DCE500805DF0 /* BaseCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +39,30 @@
 		192ED2802E3FC66D9F5F5BAB69DE5B51 /* Pods-LiquidButtonArray_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiquidButtonArray_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		489D83B67B4E1EDAAF73E7D078ED1CAD /* Pods-LiquidButtonArray_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiquidButtonArray_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5753AE036BF8CEBC8424F70BB9A16701 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59925542F14015C83F9629FE2752B9AE /* Pods-LiquidButtonArray_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LiquidButtonArray_Tests.modulemap"; sourceTree = "<group>"; };
+		59925542F14015C83F9629FE2752B9AE /* Pods-LiquidButtonArray_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LiquidButtonArray_Tests.modulemap"; sourceTree = "<group>"; };
 		5F3961BBAFBBF5ADC943F548F2AF92CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B2D48D582AB0E7A4DC65D0B9E51E45 /* Pods-LiquidButtonArray_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiquidButtonArray_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		717988941271D41DDE323846BFA50EB2 /* Pods-LiquidButtonArray_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiquidButtonArray_Tests-resources.sh"; sourceTree = "<group>"; };
-		743AE378CED52D52CCC4B85A6D458758 /* Pods_LiquidButtonArray_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiquidButtonArray_Tests.framework; path = "Pods-LiquidButtonArray_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		743AE378CED52D52CCC4B85A6D458758 /* Pods_LiquidButtonArray_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiquidButtonArray_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ADB91CFC0ECF754679608EA1CF410C0 /* LiquidButtonArray-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidButtonArray-prefix.pch"; sourceTree = "<group>"; };
 		8076E5B932D052FB633A0164DF7943AF /* Pods-LiquidButtonArray_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiquidButtonArray_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8AAFC0F572DDF9FC9EE3D8187CB717C5 /* LiquidButtonArray.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LiquidButtonArray.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8AAFC0F572DDF9FC9EE3D8187CB717C5 /* LiquidButtonArray.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LiquidButtonArray.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970E49C29251A1BA9DCDA61C47C53039 /* Pods-LiquidButtonArray_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiquidButtonArray_Tests-dummy.m"; sourceTree = "<group>"; };
 		A0B36F548334558B67CFE018430DCB57 /* LiquidButtonArray-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiquidButtonArray-umbrella.h"; sourceTree = "<group>"; };
-		C4D4DC7725C01A2FF81078BFE3FB8CD2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LiquidButtonArray/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		C7743E265CB431AA1CD859EA0605A99B /* LiquidButtonArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LiquidButtonArray.framework; path = LiquidButtonArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7743E265CB431AA1CD859EA0605A99B /* LiquidButtonArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiquidButtonArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA149A47BA48B0E059821C118B52B14 /* Pods-LiquidButtonArray_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiquidButtonArray_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D3113A7ECAA3194CF3FB1E58E89CD7E9 /* Pods-LiquidButtonArray_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiquidButtonArray_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE6EF6312129DCE500805DF0 /* LiquidCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquidCell.swift; sourceTree = "<group>"; };
+		FE6EF6322129DCE500805DF0 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		FE6EF6342129DCE500805DF0 /* UIColorEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
+		FE6EF6352129DCE500805DF0 /* CALayerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerEx.swift; sourceTree = "<group>"; };
+		FE6EF6362129DCE500805DF0 /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
+		FE6EF6372129DCE500805DF0 /* CGPointEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointEx.swift; sourceTree = "<group>"; };
+		FE6EF6382129DCE500805DF0 /* CGMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMath.swift; sourceTree = "<group>"; };
+		FE6EF6392129DCE500805DF0 /* LiquidButtonArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquidButtonArray.swift; sourceTree = "<group>"; };
+		FE6EF63A2129DCE500805DF0 /* BaseCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +108,7 @@
 		86771989A3F68E3B7EFC3AEF7342B694 /* LiquidButtonArray */ = {
 			isa = PBXGroup;
 			children = (
-				C4D4DC7725C01A2FF81078BFE3FB8CD2 /* ReplaceMe.swift */,
+				FE6EF6302129DCE500805DF0 /* Classes */,
 				EC9BFBB51F106E2F4A4633398C90D49F /* Support Files */,
 			);
 			name = LiquidButtonArray;
@@ -162,6 +177,31 @@
 				86771989A3F68E3B7EFC3AEF7342B694 /* LiquidButtonArray */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FE6EF6302129DCE500805DF0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE6EF6332129DCE500805DF0 /* Utilities */,
+				FE6EF63A2129DCE500805DF0 /* BaseCircleView.swift */,
+				FE6EF6392129DCE500805DF0 /* LiquidButtonArray.swift */,
+				FE6EF6312129DCE500805DF0 /* LiquidCell.swift */,
+				FE6EF6322129DCE500805DF0 /* .gitkeep */,
+			);
+			name = Classes;
+			path = LiquidButtonArray/Classes;
+			sourceTree = "<group>";
+		};
+		FE6EF6332129DCE500805DF0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FE6EF6342129DCE500805DF0 /* UIColorEx.swift */,
+				FE6EF6352129DCE500805DF0 /* CALayerEx.swift */,
+				FE6EF6362129DCE500805DF0 /* CGRectEx.swift */,
+				FE6EF6372129DCE500805DF0 /* CGPointEx.swift */,
+				FE6EF6382129DCE500805DF0 /* CGMath.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,8 +293,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6EF6422129DCE500805DF0 /* BaseCircleView.swift in Sources */,
+				FE6EF63D2129DCE500805DF0 /* CALayerEx.swift in Sources */,
+				FE6EF63E2129DCE500805DF0 /* CGRectEx.swift in Sources */,
+				FE6EF6402129DCE500805DF0 /* CGMath.swift in Sources */,
+				FE6EF63C2129DCE500805DF0 /* UIColorEx.swift in Sources */,
+				FE6EF63F2129DCE500805DF0 /* CGPointEx.swift in Sources */,
+				FE6EF6412129DCE500805DF0 /* LiquidButtonArray.swift in Sources */,
 				23A0538012F29FF68E7040290F8AE296 /* LiquidButtonArray-dummy.m in Sources */,
-				02C44F0B0EA697BEC75444377761223F /* ReplaceMe.swift in Sources */,
+				FE6EF63B2129DCE500805DF0 /* LiquidCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
